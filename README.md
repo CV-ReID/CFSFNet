@@ -14,8 +14,7 @@ Download the [SYSU-MM01](https://github.com/wuancong/SYSU-MM01) dataset and the 
 
 # Usage
 * Start training by executing the following commands.
-
-1.For SYSU-MM01 dataset:
+  1.For SYSU-MM01 dataset:
 
 Train: ```
 python train.py --dataset sysu  --gpu 1``` 
@@ -26,5 +25,6 @@ python test.py --dataset sysu --model_path 'path' --gpu 1```
 2.For RegDB dataset:
 
 ```python train.py --dataset regdb  --gpu 1```
+
 
 For any questions, feel free to contact us.
