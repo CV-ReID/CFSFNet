@@ -200,7 +200,7 @@ def train(epoch):
         loss_hcc_kl = criterion_hcc(y, pids, 'kl')
         loss_tri = criterion_tri(inputs_vt, pids)
 
-        loss = loss_id + loss_hcc_euc + loss_tri + loss_hcc_kl + loss_tct * 0.2
+        loss = loss_id + loss_hcc_euc + loss_tri + loss_hcc_kl + loss_tct * 0.2 # 0.2 for sysu, 0.1 for regdb
 
 
         # loss_pp_euc = 0
