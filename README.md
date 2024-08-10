@@ -17,14 +17,14 @@ Download the [SYSU-MM01](https://github.com/wuancong/SYSU-MM01) dataset and the 
 1.For SYSU-MM01 dataset:
 
 Train: ```
-python train.py --dataset sysu  --gpu 1``` 
+python train.py --dataset sysu  --gpu 0``` 
 
 Test: ```
-python test.py --dataset sysu --model_path 'path' --gpu 1``` 
+python test.py --dataset sysu --model_path 'path' --gpu 0``` 
 
 2.For RegDB dataset:
 
-```python train.py --dataset regdb  --gpu 1```
+```python train.py --dataset regdb  --gpu 0```
 
 
 For any questions, feel free to contact us.
